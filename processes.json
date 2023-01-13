@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "humid-checker",
+      "script": "main.js",
+      "node_args" : "",
+      "error_file": "/usr/local/var/log/humid-checker.stderr.log",
+      "out_file": "/usr/local/var/log/humid-checker.stdout.log",
+      "merge_logs": true,
+      "pid_file": "/usr/local/var/run/humid-checker.pid",
+      "exec_mode": "fork",
+      "autorestart": true,
+      "env": {
+        "NODE_ENV": "default",
+        "LOG_STDOUT": "/usr/local/var/log/humid-checker.stdout.log",
+        "LOG_STDERR": "/usr/local/var/log/humid-checker.stderr.log"
+      }
+    }
+  ]
+}

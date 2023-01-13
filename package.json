@@ -1,0 +1,17 @@
+{
+  "name": "humid-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "NODE_ENV=default node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hamache9801",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.8",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2"
+  }
+}

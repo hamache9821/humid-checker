@@ -1,0 +1,9 @@
+{
+     "url" : 
+        {
+            "heater"  : "http://localhost:8080/status"
+          , "patlite" : "http://example.com.local/api/control?alert="
+        }
+    , "cron_schedule" : "* */5 * * * *"
+    , "listen_port" : 8081
+}
